@@ -1,157 +1,234 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>Resume Faraz Haryani</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-<body>
-<div class="container">
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Faraz Haryani <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item active">
-        <a class="nav-link" href="#sum">Summary </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#edu">Education</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#pro">Academic Projects Undertaken</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#skill">Skill Set</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#perso">Personal Profile</a>
-      </li>
-    </ul>
-  </div>
-</nav>
-<div style="margin-bottom: 1em" class="row">
-<div class="col-md-12">
-<center><h2><b>Faraz Hariyani</b></h2>
-<p>Bengaluru, India<br>
-Mobile: 9096392746<br>
-Email: <a href="mailto:farazhariyani7@gmail.com">Faraz Hariyani</a><br>
-LinkedIn: <a href="https://www.linkedin.com/in/farazhariyani/">Faraz Hariyani</a></p></center>
-</div>
-</div>
-<div style="margin-bottom: 1em" class="row" id="sum">
-<div class="col-md-12">
-<center><h4><b>Summary</b></h4></center>
-<p>Pursuing MSc-IT, for a passion for code. I like being punctual with my work, and free time. With leadership abilities, and dedication I like to carry out my life. Looking forward to being part of a team and working with other skilled people.</P>
-</div>
-</div>
-<div style="margin-bottom: 1em; margin-top: 1em" class="row" id="edu">
-<center><h4><b>Education</b></h4></center>
-<div class="col-md-5">Masters of Science in Information Technology, 2018-2020<br>
-Jain Deemed-To-Be University, Bengaluru </div>
-<div class="col-md-7">
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3200.854429222566!2d77.59096819525458!3d12.916332191860368!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1597cd6fe0a5%3A0x36097fc10e521aef!2sJain%20University!5e0!3m2!1sen!2sin!4v1573577672044!5m2!1sen!2sin" width="250" height="150" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-</div>
-<div class="col-md-5">Bachelor of Computer Application, 2014-2018 <br>MIT-SOM College, Pune</div>
-<div class="col-md-7">
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d236.4554652650803!2d73.81502324879227!3d18.515908242419748!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x771e89770c4697a3!2sMIT%20School%20of%20Management!5e0!3m2!1sen!2sin!4v1573579258070!5m2!1sen!2sin" width="250" height="150" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-</div>
-</div>
-<div style="margin-bottom: 1em" class="row" id="pro">
-  <div class="col-md-12">
-  <center><h4><b>Academic Projects Undertaken</b></h4></center>
-  <nav>
-  <ul class="nav nav-tabs">
-    <li class="active"><a data-toggle="tab" href="#menu1">Project 1 &nbsp;&nbsp;&nbsp;&nbsp;</a></li>
-    <li><a data-toggle="tab" href="#menu2">Project 2 &nbsp;&nbsp;&nbsp;&nbsp;</a></li>
-    <li><a data-toggle="tab" href="#menu3">Project 3 &nbsp;&nbsp;&nbsp;&nbsp;</a></li>
-  </ul>
-</nav>
-  <div class="tab-content">
-    <div id="home" class="tab-pane fade in active">
-      <h3>HOME</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+  <head>
+    <title>Resume Faraz Haryani</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <style type="text/css">
+      ul.timeline {
+        list-style-type: none;
+        position: relative;
+      }
+      ul.timeline:before {
+          content: ' ';
+          background: #d4d9df;
+          display: inline-block;
+          position: absolute;
+          left: 29px;
+          width: 2px;
+          height: 100%;
+          z-index: 400;
+      }
+      ul.timeline > li {
+          margin: 20px 0;
+          padding-left: 20px;
+      }
+      ul.timeline > li:before {
+          content: ' ';
+          background: white;
+          display: inline-block;
+          position: absolute;
+          border-radius: 50%;
+          border: 3px solid #22c0e8;
+          left: 20px;
+          width: 20px;
+          height: 20px;
+          z-index: 400;
+      }      
+    </style>
+  </head>
+  <body style="background-color: #F8F9FA;font-family: Roboto,sans-serif;">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+      <div class="collapse navbar-collapse container" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link active" href="JavaScript:Void(0)" onclick="window.scrollTo(0, 0);">Faraz Haryani <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="JavaScript:Void(0);" onclick="window.scrollTo(0, 530);">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="JavaScript:Void(0)" onclick="window.scrollTo(0, 940);">Academic Projects Undertaken</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="JavaScript:Void(0)" onclick="window.scrollTo(0, 1235);">Skill Set</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="JavaScript:Void(0)" onclick="window.scrollTo(0, 1850);">Personal Profile</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container shadow-sm p-3 mb-5 bg-white rounded " style="padding-top: 1em">
+      <div style="margin-top: 1em;background-color: #333333;color: whitesmoke;padding: 1em;" id="sum" class="row">
+        <div class="col-md-4">
+           <div class="card">
+            <img class="card-img-top" src="far.jpg" alt="Card image">
+          </div>
+        </div>
+        <div class="col-md-8">
+            <h2><b>Faraz Hariyani</b></h2><hr style="background-color: white">
+            <p>Bengaluru, India<br>
+            Mobile: 9096392746<br>
+            Email: <a href="mailto:farazhariyani7@gmail.com">Faraz Hariyani</a><br>
+            LinkedIn: <a href="https://www.linkedin.com/in/farazhariyani/">Faraz Hariyani</a></p>
+                  <div style="margin-bottom: 1em" class="row">
+        <div class="col-md-12">
+          <center><h5><b>About Me</b></h5></center>
+            <p> Pursuing MSc-IT, for a passion for code. I like being punctual with my work, and free time. With leadership abilities, and dedication I like to carry out my life. Looking forward to being part of a team and working with other skilled people. </P>
+        </div>
+      </div>
+         
+        </div>
+      </div>
+      <div style="margin-top: 3em" class="row" id="edu">
+        <div class="col-md-12" style="padding-bottom: 1em">
+          <center><h4><b>Education</b></h4></center>
+        </div>
+          <div class="col-md-5">Masters of Science in Information Technology, 2018-2020<br>Jain Deemed-To-Be University, Bengaluru </div>
+          <div class="col-md-2 text-center"> <button class="btn btn-info" style="background-color: #333333;border-color: #333333"> 2018-2020</button> </div>
+          <div class="col-md-5 text-right">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3200.854429222566!2d77.59096819525458!3d12.916332191860368!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1597cd6fe0a5%3A0x36097fc10e521aef!2sJain%20University!5e0!3m2!1sen!2sin!4v1573577672044!5m2!1sen!2sin" width="250" height="150" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+          </div>
+          <div class="col-md-5">Bachelor of Computer Application, 2014-2018 <br>MIT-SOM College, Pune</div>
+          <div class="col-md-2 text-center"> <button class="btn btn-info" style="background-color: #333333;border-color: #333333"> 2014-2018</button> </div>
+          <div class="col-md-5 text-right">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d236.4554652650803!2d73.81502324879227!3d18.515908242419748!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x771e89770c4697a3!2sMIT%20School%20of%20Management!5e0!3m2!1sen!2sin!4v1573579258070!5m2!1sen!2sin" width="250" height="150" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+          </div>
+      </div>
+      <div style="margin-top: 3em" class="row" id="pro">
+        <div class="col-md-12">
+          <center><h4><b>Academic Projects Undertaken</b></h4></center>
+          <ul class="nav nav-tabs" role="tablist">
+            <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#menu1">Project 1 &nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+            <li class="nav-item"><a data-toggle="tab" class="nav-link" href="#menu2">Project 2 &nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+            <li class="nav-item"><a data-toggle="tab" class="nav-link" href="#menu3">Project 3 &nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+          </ul>
+          <div class="tab-content">
+            <div id="menu1" class="tab-pane fade in active">
+              <div class="row" style="margin-bottom: 1em;margin-top: 1em">
+                <div class="col-md-2">Project</div><div class="col-md-10"> An Effective Approach for Sales Forecasting</div>
+                <div class="col-md-2">Team size</div><div class="col-md-10"> 1</div>
+                <div class="col-md-2">Backend</div><div class="col-md-10"> Python</div>
+                <div class="col-md-2">Submitted</div><div class="col-md-10"> Ongoing</div>
+                <div class="col-md-2">Description </div><div class="col-md-10"> Implementing regression techniques and comparing them as per the testing score received at the end of the implementation.</div>
+              </div>
+            </div>
+            <div id="menu2" class="tab-pane fade">
+              <div class="row" style="margin-bottom: 1em;margin-top: 1em">
+                <div class="col-md-2">Project </div><div class="col-md-10">   Society Management System</div>
+                <div class="col-md-2">Team size </div><div class="col-md-10">   1</div>
+                <div class="col-md-2">Front End </div><div class="col-md-10">   Java</div>
+                <div class="col-md-2">Back End </div><div class="col-md-10">   MS Access</div>
+                <div class="col-md-2">Submitted </div><div class="col-md-10">   BCA Sem 6</div>
+                <div class="col-md-2">Description</div><div class="col-md-10"> Maintaining records of owners, management committee and accounts of the society and alarms the user about due(s). It provides an annual report of the society.</div>
+              </div>
+            </div>
+            <div id="menu3" class="tab-pane fade">
+              <div class="row" style="margin-bottom: 1em;margin-top: 1em">
+                <div class="col-md-2">Project    </div><div class="col-md-10"> Reality Show Management – Dance Show</div>
+                <div class="col-md-2">Team size </div><div class="col-md-10"> 2</div>
+                <div class="col-md-2">Front End </div><div class="col-md-10"> MS Visual Basic 6</div>
+                <div class="col-md-2">Back End </div><div class="col-md-10"> MS Access</div>
+                <div class="col-md-2">Submitted </div><div class="col-md-10"> BCA Sem 5</div>
+                <div class="col-md-2">Description </div><div class="col-md-10"> Keeping track of all the dancers, judges, choreographers of the show. This system also keeps record of marks of every week and total marks scored by each contestant in order to generate a full report.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div style="margin-top: 3em" class="row" id="skill">
+        <div class="col-md-6 offset-md-3">
+          <center><h4><b>Skill Set</b></h4></center>
+          <ul class="timeline">
+            <li>
+              HTML
+              <div class="progress">
+                <div class="progress-bar" style="width:70%">70%</div>
+              </div>
+            </li>
+            <li>
+              CSS
+              <div class="progress">
+                <div class="progress-bar" style="width:70%">70%</div>
+              </div>
+            </li>
+            <li>
+              MS Office
+              <div class="progress">
+                <div class="progress-bar" style="width:70%">70%</div>
+              </div>
+            </li>
+            <li>
+              Database Management
+              <div class="progress">
+                <div class="progress-bar" style="width:70%">70%</div>
+              </div>
+            </li>
+            <li>
+              Multitasking
+              <div class="progress">
+                <div class="progress-bar" style="width:70%">70%</div>
+              </div>
+            </li>
+            <li>
+              Problem-solving
+              <div class="progress">
+                <div class="progress-bar" style="width:70%">70%</div>
+              </div>
+            </li>
+            <li>
+              Brainstorming
+              <div class="progress">
+                <div class="progress-bar" style="width:70%">70%</div>
+              </div>
+            </li>
+            <li>
+              Decision Making
+              <div class="progress">
+                <div class="progress-bar" style="width:70%">70%</div>
+              </div>
+            </li>
+            <li>
+              Team Player
+              <div class="progress">
+                <div class="progress-bar" style="width:70%">70%</div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div style="margin-top: 3em" class="row" id="perso">
+        <div class="col-md-12">
+          <center><h4><b>Personal Profile</b></h4></center>
+          <table class="table table-hover table-dark">
+            <tr>
+              <th style="padding-right: 5em">Name:</th><td> Faraz Badruddin Hariyani</td>
+            </tr>
+            <tr>
+              <th style="padding-right: 5em">Date of Birth:</th><td> 22nd July 1996</td>
+            </tr>
+            <tr>
+              <th style="padding-right: 5em">Gender:</th><td> Male</td>
+            </tr>
+            <tr>
+              <th style="padding-right: 5em">Languages Known:</th><td> English, Hindi, Gujarati</td>
+            </tr>
+            <tr>
+              <th style="padding-right: 5em">Current Address:</th><td> No. 174, 4th Main, 3rd Cross, JP Nagar 2nd Phase, Bengaluru-560078</td>
+            </tr>
+            <tr>
+              <th style="padding-right: 5em">Permanent Address:</th><td> Flat No. 7, Unit 2, Sunshine Court, Kalyaninagar, Pune-411006</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div style="margin: 3em" class="row">
+        <div class="col-md-6">Place: Bengaluru<br>Date:  12-Nov-19</div>
+        <div class="col-md-3"></div><div class="col-md-3"><b>Faraz B. Hariyani</b></div>
+      </div>
     </div>
-    <div id="menu1" class="tab-pane fade">
-        <div class="row" style="margin-bottom: 1em">
-  <div class="col-md-2">Project    </div><div class="col-md-10"> An Effective Approach for Sales Forecasting</div>
-  <div class="col-md-2">Team size    </div><div class="col-md-10"> 1</div>
-  <div class="col-md-2">Backend    </div><div class="col-md-10"> Python</div>
-  <div class="col-md-2">Submitted    </div><div class="col-md-10"> Ongoing</div>
-  <div class="col-md-2">Description </div><div class="col-md-10"> Implementing regression techniques and comparing them as per the testing score received at the end of the implementation.</div>
-  </div>
-    </div>
-    <div id="menu2" class="tab-pane fade">
-        <div class="row" style="margin-bottom: 1em">
-  <div class="col-md-2">Project </div><div class="col-md-10">   Society Management System</div>
-  <div class="col-md-2">Team size </div><div class="col-md-10">   1</div>
-  <div class="col-md-2">Front End </div><div class="col-md-10">   Java</div>
-  <div class="col-md-2">Back End </div><div class="col-md-10">   MS Access</div>
-  <div class="col-md-2">Submitted </div><div class="col-md-10">   BCA Sem 6</div>
-  <div class="col-md-2">Description</div><div class="col-md-10"> Maintaining records of owners, management committee and accounts of the society and alarms the user about due(s). It provides an annual report of the society.</div>
-  </div>
-    </div>
-    <div id="menu3" class="tab-pane fade">
-  <div class="row" style="margin-bottom: 1em">
-  <div class="col-md-2">Project    </div><div class="col-md-10"> Reality Show Management – Dance Show</div>
-  <div class="col-md-2">Team size </div><div class="col-md-10"> 2</div>
-  <div class="col-md-2">Front End </div><div class="col-md-10"> MS Visual Basic 6</div>
-  <div class="col-md-2">Back End </div><div class="col-md-10"> MS Access</div>
-  <div class="col-md-2">Submitted </div><div class="col-md-10"> BCA Sem 5</div>
-  <div class="col-md-2">Description </div><div class="col-md-10"> Keeping track of all the dancers, judges, choreographers of the show. This system also keeps record of marks of every week and total marks scored by each contestant in order to generate a full report.</div>
-  </div>
-    </div>
-  </div>
-</div>
-  </div>
-<div style="margin-bottom: 1em" class="row" id="skill">
-<div class="col-md-12">
-<center><h4><b>Skill Set</b></h4></center>
-<ul>
-<li>HTML</li>
-<li>CSS</li>
-<li>MS Office</li>
-<li>Database Management</li>
-<li>Multitasking</li>
-<li>Problem-solving</li>
-<li>Brainstorming</li>
-<li>Decision Making</li>
-<li>Team Player</li>
-</ul>
-</div>
-</div>
-<div style="margin-bottom: 1em" class="row" id="perso">
-<div class="col-md-12">
-<center><h4><b>Personal Profile</b></h4></center>
-<table class="table-borderless">
-<tr>
-<th style="padding-right: 5em">Name:</th><td> Faraz Badruddin Hariyani</td>
-</tr>
-<tr>
-<th style="padding-right: 5em">Date of Birth:</th><td> 22nd July 1996</td>
-</tr>
-<tr>
-<th style="padding-right: 5em">Gender:</th><td> Male</td>
-</tr>
-<tr>
-<th style="padding-right: 5em">Languages Known:</th><td> English, Hindi, Gujarati</td>
-</tr>
-<tr>
-<th style="padding-right: 5em">Current Address:</th><td> No. 174, 4th Main, 3rd Cross, JP Nagar 2nd Phase, Bengaluru-560078</td>
-</tr>
-<tr>
-<th style="padding-right: 5em">Permanent Address:</th><td> Flat No. 7, Unit 2, Sunshine Court, Kalyaninagar, Pune-411006</td>
-</tr>
-</table>
-</div>
-</div>
-<div style="margin: 3em" class="row">
-<div class="col-md-6">Place: Bengaluru<br>                    
-Date:  12-Nov-19</div>
-<div class="col-md-3"></div><div class="col-md-3"><b>Faraz B. Hariyani</b></div>
-</div>
-</div>
-</body>
+  </body>
 </html>
