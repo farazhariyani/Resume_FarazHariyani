@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<html>
+
   <head>
     <title>Resume Faraz Haryani</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -69,7 +68,7 @@
         <div class="col-md-4">
            <div class="card">
             <img class="card-img-top" src="FarazHariyani.jpg" alt="Card image">
-          </div>
+           </div>
         </div>
         <div class="col-md-8">
             <h2><b>Faraz Hariyani</b></h2><hr style="background-color: white">
@@ -83,9 +82,8 @@
             <p> Analyse and visualize data effectively using Python and R programming languages. Finding ways to enhance business solutions and help the organization. Easily adjustable to new systems, tools and environments. Achievement oriented. </P>
         </div>
       </div>
-         
-        </div>
-      </div>
+     </div>
+    </div>
       <div style="margin-top: 3em" class="row" id="edu">
         <div class="col-md-12" style="padding-bottom: 1em">
           <centre><h4><b>Education</b></h4></centre>
@@ -230,5 +228,3 @@
         </div>
       </div>
     </div>
-  </body>
-</html>
